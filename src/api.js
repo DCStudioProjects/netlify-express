@@ -6,7 +6,7 @@ const router = express.Router();
 const querystring = require("querystring");
 
 router.get("/", (req, res) => {
-  const { data } = await axios.post(
+  const data = await axios.post(
     `http://rezkance.com/ajax/get_cdn_series/`,
     querystring.stringify(
       {
