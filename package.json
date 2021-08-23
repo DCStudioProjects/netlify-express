@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.16.4",
+    "querystring": "^0.2.1",
     "netlify-lambda": "^1.4.3",
     "serverless-http": "^1.9.1"
   },
